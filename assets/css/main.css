@@ -1,0 +1,90 @@
+*{
+    font-family: Verdana;
+}
+
+:root{
+    --primary: #221F2E;
+    --secondary: #2E2B3F;
+    
+}
+
+body{
+    background-color: var(--primary);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.container{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    display: flex;
+}
+
+.box1, .box2, .box3{
+    background-color: var(--secondary);
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    box-shadow: 1px 1px 10px #00000020;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p, select, input{
+    margin: 3px;
+}
+
+select{
+    width: 100%;
+    height: 30px;
+}
+
+#b1-qnt{
+    width: 98%;
+    height: 25px;
+}
+
+#btn{
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a349e;
+    color: white;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: #553cb6;
+    cursor: pointer;
+}
+
+#info{
+    margin: 7px;
+    padding-top: 3px;
+    height: 30px;
+    background-color: #4a349e;
+    font-weight: bolder;
+    font-variant-caps:small-caps
+}
+
+#info:hover{
+    transform: scale(1.02);
+    cursor: default;
+    background-color: #553cb6;
+}
+
+.footer{
+    margin-top: 30px;
+    font-variant-caps: small-caps;
+}
+
+h1{
+    font-variant-caps: small-caps;
+}

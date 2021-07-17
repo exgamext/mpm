@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft info Maker</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- Title -->
+    <h1 align="center">Minecraft Potion Maker</h1>
+    
+    <!-- info Maker -->
+    <div class="container">
+        <div class="box1">
+            <h4 align="center">O que deseja fazer?</h4>
+
+            <!-- Selecionar a poção -->
+            <p>Selecione a poção desejada</p>
+            <select id="enchant">
+                <option value="1">Velocidade</option>
+                <option value="2">Lentidão</option>
+                <option value="3">Salto</option>
+                <option value="4">Força</option>
+                <option value="5">Cura</option>
+                <option value="6">Dano</option>
+                <option value="7">Veneno</option>
+                <option value="8">Regeneração</option>
+                <option value="9">Resistência ao fogo</option>
+                <option value="10">Respiração aquática</option>
+                <option value="11">Visão noturna</option>
+                <option value="12">Invisibilidade</option>
+                <option value="13">Mestre tartaruga</option>
+                <option value="14">Queda lenta</option>
+                <option value="15">Fraqueza</option>
+            </select>
+
+            <!-- Selecionar melhoria I-->
+            <p>Selecione a melhoria I</p>
+            <select id="upgrade">
+                <option value="1">Sem melhorias</option>
+                <option value="2">Maior duração</option>
+                <option value="3">Nível II</option>
+            </select>
+
+            <!-- Selecionar melhoria II -->
+            <p>Selecionar melhoria II</p>
+            <select id="mode">
+                <option value="1">Sem melhorias</option>
+                <option value="2">Arremessável</option>
+                <option value="3">Prolongada</option>
+            </select>
+
+            <!-- Quantidade -->
+            <p>Qual quantidade de poções?</p>
+            <input type="number" id="b1-qnt">
+
+            <!-- Botão -->
+            <input id="btn" type="button" value="CALCULAR" onclick="calcular()">
+
+        </div>
+        <div class="box2">
+            <h4 align="center">Resumo geral</h4>
+            <div align="center" id="info">
+                <p id="potion">selecione a poção</p>
+            </div>
+            <div align="center" id="info">
+                <p id="time">tempo</p>
+            </div>
+            <div align="center" id="info">
+                <p id="b2-upgrade">melhoria</p>
+            </div>
+            <div align="center" id="info">
+                <p id="b2-qnt">quantidade</p>
+            </div>
+            <div align="center" id="info">
+                <p id="ptime">tempo de preparo</p>
+            </div>
+            <div align="center" id="info">
+                <p id="etime">duração de efeitos</p>
+            </div>
+        </div>
+        <!-- <div class="box3">
+            <h4 align="center">Recursos necessários</h4>
+            <div align="center" id="info">
+                <p>Frascos de água: 3</p>
+            </div>
+            <div align="center" id="info">
+                <p>Fungo do nether: 1</p>
+            </div>
+            <div align="center" id="info">
+                <p>Açucar: 1</p>
+            </div>
+            <div align="center" id="info">
+                <p>Redstone: 1</p>
+            </div>
+            <div align="center" id="info">
+                <p>Polvora : 1</p>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p align="center">Powered by TTI Web Design</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jQuerry.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
